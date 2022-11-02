@@ -1,3 +1,5 @@
+#Time_Complexity: O(m*n) 
+#Space_Complexity : O(m*n)
 def knapsack(val,wt,c,n):
     dp = [[ 0 for i in range(c+1)] for j in range(n+1)] # creating dp matrix with value 0
     for i in range(1,n+1):
